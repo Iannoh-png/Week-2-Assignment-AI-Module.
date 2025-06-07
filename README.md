@@ -78,5 +78,3 @@ This assignment contributes to understanding global energy disparities and aims 
 
 ---
 
-## 📁 File Structure
-

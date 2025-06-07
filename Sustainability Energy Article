@@ -1,0 +1,27 @@
+Data-Driven Strategies for Achieving SDG 7: Analyzing Global Access to Sustainable Energy
+Abstract
+This paper addresses the global challenge of ensuring access to affordable, reliable, sustainable, and modern energy for all, as outlined in Sustainable Development Goal 7 (SDG 7). Using a comprehensive dataset encompassing global energy metrics such as electricity access, renewable energy capacity, financial flows, and carbon emissions, we analyze patterns and disparities across countries and years. Our methodology involves data cleaning, trend analysis, and comparative evaluation using Python. Results show significant regional disparities in clean energy access and financing, with positive correlations between renewable capacity and reduced CO2 emissions. We propose a data-driven framework for policymakers and development agencies to identify underfunded regions, monitor progress, and allocate resources effectively.
+Keywords: SDG 7, sustainable energy, data analysis, renewable energy, energy access, carbon emissions, global development
+1.	Introduction Access to energy is a foundational component of economic development and quality of life. However, disparities in electricity access, reliance on fossil fuels, and limited investment in renewables impede progress toward SDG 7. This paper investigates these issues using multi-dimensional data to uncover trends and suggest actionable insights.
+2.	Related Work Previous studies have assessed energy access in developing regions, examined renewable energy potential, and mapped financial aid flows. However, few integrate these components holistically to inform decision-making across sectors. Our work bridges this gap by combining economic, environmental, and energy access data.
+3.	Methodology We used a dataset comprising 3,649 records spanning indicators such as electricity access, renewable energy production, fossil fuel consumption, financial flows, and GDP. The data was cleaned, normalized, and analyzed using Python libraries including pandas, matplotlib, and seaborn. Key steps included:
+Handling missing values and anomalies
+Time-series trend analysis
+Correlation and regression analysis
+Geographical mapping of energy indicators
+4.	Results Analysis revealed:
+Sub-Saharan Africa has among the lowest access to electricity (<50%) and clean cooking fuels
+Regions with higher financial inflows for energy development exhibit faster growth in renewable capacity
+There is a strong negative correlation between renewable energy share and CO2 emissions
+Energy intensity tends to decrease as GDP per capita rises, indicating improved efficiency
+5.	Discussion These findings highlight areas for strategic investment and policy focus. Increasing renewable energy capacity and improving energy efficiency are pivotal for decarbonization and equitable development. Limitations include data gaps in certain years and countries, which could be addressed with enhanced reporting mechanisms.
+6.	Conclusion and Future Work Our study demonstrates how integrated energy data can support the global effort to achieve SDG 7. Future work will explore machine learning models for forecasting energy transitions and assess the impact of specific policies on renewable energy uptake.
+
+
+
+References
+United Nations SDG Reports
+World Bank Open Data
+International Energy Agency (IEA) Statistics
+Data source: sustainable_energy.csv
+

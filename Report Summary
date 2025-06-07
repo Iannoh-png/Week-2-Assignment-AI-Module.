@@ -1,0 +1,38 @@
+Report Summary: Sustainable Development Goal (SDG) and Machine Learning Analysis
+SDG Problem Addressed
+This analysis addresses Sustainable Development Goal 7 (SDG 7): Affordable and Clean Energy. The SDG aims to ensure universal access to affordable, reliable, and modern energy services, increase substantially the share of renewable energy in the global energy mix, and double the global rate of improvement in energy efficiency. The dataset contains global energy indicators such as access to electricity, clean cooking fuels, renewable energy generation, CO₂ emissions, and financial flows to developing nations.
+
+Machine Learning Approach
+We applied K-means clustering to group countries by their progress in sustainable energy transition. Key variables used included:
+
+Access to electricity (% population)
+
+Access to clean fuels for cooking
+
+Renewable energy share in final energy consumption
+
+CO₂ emissions by country
+
+GDP per capita and GDP growth
+
+Energy intensity and consumption per capita
+
+The clustering helped reveal patterns in energy access, consumption behavior, and emissions efficiency across regions, highlighting disparities and potential focal points for development and investment.
+
+Results
+The analysis identified three distinct country clusters:
+
+High Access, Low Emissions: Countries with nearly full energy access and a high share of renewables (e.g., Scandinavian countries).
+
+Developing Transition Economies: Countries with growing access to electricity but still reliant on fossil fuels and with increasing CO₂ emissions (e.g., India, Brazil).
+
+Low Access, High Dependency: Nations with minimal access to clean energy, low renewables usage, and high energy intensity (e.g., some Sub-Saharan African countries).
+
+These insights can support targeted policy recommendations, investments, and technology transfers to accelerate energy transition equitably.
+
+Ethical Considerations
+Data Bias: Several countries had missing or outdated data, possibly underrepresenting their actual energy status. ML models could thus unintentionally reinforce inequities.
+
+Equity and Fairness: ML-driven policies should not favor high-GDP nations; instead, they must ensure marginalized populations are prioritized.
+
+Transparency: The interpretability of clustering models is limited. Clear communication of criteria and outcomes is essential for informed policymaking.
